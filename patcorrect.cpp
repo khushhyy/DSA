@@ -7,7 +7,9 @@ int main(){
     while(row<=n){
         int col=1;
         while(col<=n){
-            cout<<('a'+row-1)<<" ";
+            
+            char ch='a'+row-1;
+            cout<<ch<<" ";
             col++;
         }
         cout<<endl;
